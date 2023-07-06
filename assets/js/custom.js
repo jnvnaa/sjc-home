@@ -105,17 +105,7 @@
 
 
 	
-	/* ----------------------------------------------------------- */
-	/*  4. VIDEO POPUP
-	/* ----------------------------------------------------------- */
 
-   $('.mu-video-play-btn').on('click', function(event) {
-	   
-        event.preventDefault();
-        
-        $('.mu-video-iframe-area').addClass('mu-video-iframe-display');
-       
-    });
    
     // when click the close btn
 
