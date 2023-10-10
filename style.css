@@ -708,6 +708,12 @@ button:focus {
 	font-size: 12px;
 }
 
+#routeimg
+{
+	height: 200px;
+	width: 370px;
+	border-radius: 5px;
+}
 
 /*--------------------*/
 /* SPEAKERS */
