@@ -135,7 +135,6 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
 }
 
 address {
@@ -959,7 +958,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
+	background-color: grey;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -969,8 +968,13 @@ button:focus {
 	width: 100%;
 }
 
+#mu-register a{
+	text-decoration: none;
+	color: white;
+}
+
 #mu-register::before {
-	background: rgba(0,0,0,0.9);
+	background: gray;
 	bottom: 0;
 	content: '';
 	left: 0;
